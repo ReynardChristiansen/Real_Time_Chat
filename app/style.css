@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+    font-size: 15px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+}
+
+body {
+    background-color: #e0e0e0;
+}
+
+main {
+    height: 100vh;
+    padding: 20px;
+    display: flex;
+    flex-flow: column;
+}
+
+form {
+    width: 100%;
+    margin: auto;
+    max-width: 600px;
+    display: flex;
+    gap: 4px;
+}
+
+input {
+    flex-grow: 1;
+}
+
+button {
+    width: 20%;
+}
+
+input,
+button {
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    border-color: black;
+    margin-bottom: 20px;
+}
+
+.chat {
+    background-color: white;
+    list-style-type: none;
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10px;
+    margin: auto;
+    padding: 0;
+    display: flex;
+    flex-flow: column;
+    overflow: auto;
+    flex-grow: 20;
+}
+
+.post {
+    background-color: #e8eaeb;
+    border-radius: 10px;
+    padding: 1px 5px 5px 5px;
+    margin: .5rem;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.post--left {
+    width: 55%;
+    align-self: flex-start;
+}
+
+.post--right {
+    width: 55%;
+    align-self: flex-end;
+}
+
+.post__header {
+    color: #fff;
+    padding: 5px 5px;
+    margin:auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.post__header--name {
+    font-weight: bold;
+    color: Black
+}
+
+.server-name{
+    color:#eb260c
+}
+
+.post__header--time {
+    font-size: bold;
+}
+
+.post__text {
+    margin-top: 5px;
+    color: #3d3d3d;
+    padding: 1px 5px 5px 5px;
+}
+
+.activity {
+    width: 100%;
+    min-height: 2.65rem;
+    margin: 0 auto;
+    max-width: 600px;
+    padding: .75rem .25rem;
+}
+
+.activity {
+    font-style: italic;
+}
