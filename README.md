@@ -4,9 +4,8 @@ This project utilizes Socket.IO to create a real-time chat application, enabling
 
 ![image alt](https://github.com/ReynardChristiansen/Real_Time_Chat/blob/main/Project.png?raw=true)
 
-Setup
-1. git clone "https://github.com/ReynardChristiansen/Real_Time_Chat.git"
-2. open live server
-3. click app folder
-4. go to directory server (cd server)
-5. npm run dev
+## Setup
+  1. git clone https://github.com/ReynardChristiansen/Real_Time_Chat.git
+  2. go to directory server
+  3. npm run dev
+  4. open live server
